@@ -11,3 +11,5 @@ Next, the btc_scraping function is defined, which is responsible for obtaining t
 Finally, the report function is defined, which is responsible for sending the message with the price of Bitcoin through the Telegram bot. To do this, call the btc_scraping function to get the price, and then use the bot_send_text function to send the message with the price.
 
 In the if __name__ == '__main__': block, the schedule module is used to schedule the task of sending the Bitcoin price message at 11:29 every day. The task runs in an infinite loop that checks if there are any tasks pending execution.
+
+Note: This bot was created following the tutorial of anthony_manotoa, you can find it at https://platzi.com/blog/bot-python/ .
